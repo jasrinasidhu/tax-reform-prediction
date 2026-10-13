@@ -22,7 +22,7 @@ Python, XGBoost, Random Forest, SHAP, Pandas, Scikit-learn, Gradio
 ## Files
 | File | Description |
 |---|---|
-| `CodeFile_Data_Cleaning.ipynb` | Data wrangling & missing value imputation |
-| `CodeFile_of_EDA_&_ML_Model.ipynb` | EDA, feature engineering & ML modelling |
-| `Final_Clean_Dataset.xlsx` | Cleaned dataset |
-| `Featured_Dataset.xlsx` | Dataset with engineered features used for modelling |
+| `data_cleaning.ipynb` | Data wrangling & missing value imputation |
+| `eda_and_modelling.ipynb` | EDA, feature engineering & ML modelling |
+| `clean_dataset.xlsx` | Cleaned dataset |
+| `featured_dataset.xlsx` | Dataset with engineered features used for modelling |
