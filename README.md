@@ -21,11 +21,11 @@ A supplementary two-page Power BI report summarising the data behind the models.
 
 **Page 1 – Global Tax Overview (1980–2022):** how corporate income tax, personal income tax and VAT compare across regions and income groups, and how the tax mix has shifted towards VAT over four decades.
 
-![Global Tax Overview](page1_global_tax_overview.png)
+![Global Tax Overview](dashboard_page1.png)
 
 **Page 2 – Tax Structure & Entrepreneurship (2006–2022):** new business density, the Tax Mix Fingerprint (CIT ÷ VAT) against new firms, and the breakdown of the tax mix.
 
-![Tax Structure & Entrepreneurship](page2_tax_and_entrepreneurship.png)
+![Tax Structure & Entrepreneurship](dashboard_page2.png)
 
 Open `global_tax_trends_dashboard.pbix` in [Power BI Desktop](https://www.microsoft.com/en-us/power-platform/products/power-bi/desktop) (free) to use the year and region filters.
 
@@ -54,7 +54,7 @@ Python, Pandas, Scikit-learn, XGBoost, SHAP, Statsmodels, Matplotlib, Seaborn, P
 | `clean_dataset.xlsx` | Cleaned dataset |
 | `featured_dataset.xlsx` | Dataset with engineered features, used for modelling |
 | `global_tax_trends_dashboard.pbix` | Power BI dashboard |
-| `page1_global_tax_overview.png`, `page2_tax_and_entrepreneurship.png` | Dashboard screenshots |
+| `dashboard_page1.png`, `dashboard_page2.png` | Dashboard screenshots |
 
 ## How to Run
 The notebooks were built in Google Colab. To run `eda_and_modelling.ipynb`, open it in Colab, upload `featured_dataset.xlsx` (and `clean_dataset.xlsx` for the feature engineering step), and run the cells in order.
